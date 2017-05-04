@@ -1,0 +1,16 @@
+﻿<Page xmlns:ace="using:run.ace">
+    <!-- A tab bar -->
+    <Page.BottomAppBar>
+        <ace:TabBar>
+            <AppBarButton Label="Home" 
+                        Icon="www/images/info-{platform}.png" 
+                        ace:On.Click="tp.homePage()" />
+            <AppBarButton Label="Manufacturer" 
+                          Icon="www/images/info-{platform}.png" 
+                          ace:On.Click="tp.Manufacturers('all')" />
+            <AppBarButton Label="Negozio" 
+                          Icon="www/images/info-{platform}.png" 
+                          ace:On.Click="tp.Shop(true)" />
+        </ace:TabBar>
+    </Page.BottomAppBar>
+</Page>
