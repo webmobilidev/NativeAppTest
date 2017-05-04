@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gpc.NGTestPhonegapGuidetti" version="5.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Guidetti NG Test</name>
+<widget id="com.gpc.NativeTestGuidetti" version="5.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Guidetti Native Test</name>
     <description>
       Next gen App con negozio guidetto
     </description>
@@ -16,6 +16,7 @@
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="android-minSdkVersion" value="19" />
+    <preference name="ShowTitle" value="true"/>
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
