@@ -99,5 +99,5 @@
     <engine name="ios" spec="~4.3.1" />
     <plugin name="cordova-plugin-contacts" CONTACTS_USAGE_DESCRIPTION="your usage message" />
     <plugin name="cordova-plugin-ace" spec="~0.1.2" src="https://github.com/microsoft/ace.git" />
-
+    <plugin name="cordova-plugin-x-socialsharing" spec="~5.1.8" src="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin" />
 </widget>
